@@ -1,12 +1,23 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
+  <div>
+    <div id="nav">
+      <headernav />
+      <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/contact">Contact</router-link>|
-    <router-link to="/newsroom">Newsroom</router-link>
+    <router-link to="/newsroom">Newsroom</router-link> -->
+    </div>
+    <router-view />
   </div>
-  <router-view />
 </template>
+
+<script>
+import headernav from "../src/components/header.vue";
+export default {
+  name: "App",
+  components: { headernav },
+};
+</script>
 
 <style>
 #app {
@@ -18,9 +29,14 @@
 }
 
 #nav {
-  padding: 30px;
+  /* padding: 30px; */
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
-
+router-view {
+  z-index: -1;
+}
 #nav a {
   font-weight: bold;
   color: #2c3e50;

@@ -13,14 +13,14 @@
         </div>
         <div class="description-wrapper">
           <h2>
-            who are we
+            Who are we
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            tempus suscipit diam in pellentesque. Pellentesque non odio ac enim
-            sollicitudin bibendum vel quis lacus. Vivamus consectetur tellus
-            ligula, lacinia molestie nulla convallis eu. Fusce vel lorem enim.
-            Quisque semper viverra arcu id gravida.
+            All-Embrace is a thriving young brand based in Malaysia, which
+            generates new concepts and development in the industry of
+            Technology, F&B, Entertainment & Lifestyle. Our team works with
+            blood, sweat & tears to deliver the maximum effort in order to
+            achieve an outstanding result for our stakeholders.
           </p>
           <div class="button">
             learn more btn
@@ -29,6 +29,8 @@
       </div>
     </div>
 
+    <div class="line"></div>
+
     <div class="section1">
       <div class="section1-wrapper">
         <div class="description-wrapper-2">
@@ -36,15 +38,15 @@
             Vision
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            tempus suscipit diam in pellentesque. Pellentesque non odio ac enim
-            sollicitudin bibendum vel quis lacus. Vivamus consectetur tellus
-            ligula, lacinia molestie nulla convallis eu. Fusce vel lorem enim.
-            Quisque semper viverra arcu id gravida.
+            To be the top innovative leading corporation in Malaysia, committed
+            to enhancing shareholder value and maintaining long-term sustainable
+            growth in our core businesses.
           </p>
         </div>
       </div>
     </div>
+
+    <div class="line"></div>
 
     <div class="section1">
       <div class="section1-wrapper">
@@ -58,12 +60,11 @@
                 O
               </div>
               <h2>
-                title
+                Commitment
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                tempus suscipit diam in pellentesque. Pellentesque non odio ac
-                enim sollicitudin bibendum vel quis lacus.
+                Be committed to innovation and the adoption of new technology to
+                achieve competitive advantage.
               </p>
             </div>
 
@@ -72,12 +73,11 @@
                 O
               </div>
               <h2>
-                title
+                Value
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                tempus suscipit diam in pellentesque. Pellentesque non odio ac
-                enim sollicitudin bibendum vel quis lacus.
+                We aim to generate sustainable growth and profits, and to
+                consistently enhance our stakeholder’s value
               </p>
             </div>
 
@@ -86,12 +86,11 @@
                 O
               </div>
               <h2>
-                title
+                Experiences
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                tempus suscipit diam in pellentesque. Pellentesque non odio ac
-                enim sollicitudin bibendum vel quis lacus.
+                We are committed towards providing the most delightful and
+                memorable experiences to our customers.
               </p>
             </div>
           </div>
@@ -129,6 +128,13 @@ export default {
 }
 .hero-wrapper h1 {
   margin: 20px 20px 30px 20px;
+}
+.line {
+  height: 3px;
+  width: 80%;
+
+  background: red;
+  margin: auto;
 }
 .section1 {
   min-height: 300px;
