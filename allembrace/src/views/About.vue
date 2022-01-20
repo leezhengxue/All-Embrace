@@ -9,7 +9,13 @@
     <div class="section1">
       <div class="section1-wrapper">
         <div class="video">
-          <img src="../assets/AE-W.png" />
+          <!-- <video src="../assets/All-embrace-introduction-video.mp4" /> -->
+          <video autoplay muted>
+            <source
+              src="../assets/All-embrace-introduction-video.mp4"
+              type="video/mp4"
+            />
+          </video>
         </div>
         <div class="description-wrapper">
           <h2>
@@ -188,13 +194,14 @@ export default {
 }
 
 .video {
-  max-width: 350px;
+  max-width: 400px;
   margin: 20px 0;
 }
-.video img {
+.video video {
   max-width: 100%;
   height: auto;
 }
+
 .description-wrapper {
   max-width: 50%;
   margin: 0 20px;

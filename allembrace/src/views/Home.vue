@@ -938,12 +938,13 @@ export default {
 }
 .section5-wrapper .content-card h2 {
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.15px;
+  letter-spacing: 1.15px;
   font-size: 24px;
 }
 .section5-wrapper .content-card h3 {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.15px;
+  font-weight: lighter;
   font-size: 18px;
   color: white;
 }
