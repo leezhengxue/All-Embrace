@@ -26,8 +26,9 @@
           <h3>Social Media</h3>
           <p>
             <a
-              href="https://www.linkedin.com/in/all-embrace-warehouse-347459226/"
+              href="https://www.linkedin.com/company/all-embrace-sdn-bhd"
               target="_blank"
+              rel="noopener"
               >LinkedIn</a
             >
           </p>
@@ -35,13 +36,15 @@
             <a
               href="https://www.facebook.com/AllEmbraceWarehouse"
               target="_blank"
+              rel="noopener"
               >Facebook</a
             >
           </p>
           <p>
             <a
-              href="https://www.instagram.com/allembrace_warehouse/"
+              href="https://instagram.com/allembracegroup"
               target="_blank"
+              rel="noopener"
               >Instagram</a
             >
           </p>
