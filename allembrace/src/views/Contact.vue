@@ -73,7 +73,7 @@ export default {
 .hero-wrapper h1 {
   font-family: "Raleway", sans-serif;
   letter-spacing: 1.15px;
-  font-size: 48px;
+  font-size: 55px;
   margin: 20px 20px 30px 20px;
   color: #ceae3c;
 }
@@ -115,5 +115,10 @@ export default {
   font-family: "Montserrat", sans-serif;
   text-align: left;
   color: white;
+}
+@media (max-width: 400px) {
+  .content-wrapper h3 {
+    width: 100%;
+  }
 }
 </style>

@@ -156,7 +156,7 @@ export default {
 .hero-wrapper h1 {
   font-family: "Raleway", sans-serif;
   letter-spacing: 1.15px;
-  font-size: 48px;
+  font-size: 55px;
   margin: 20px 20px 30px 20px;
   color: #ceae3c;
 }
@@ -179,7 +179,7 @@ export default {
 }
 .section1-wrapper {
   height: 100%;
-  width: 1024px;
+  max-width: 1024px;
   margin: 20px 50px;
   display: flex;
   flex-wrap: wrap;

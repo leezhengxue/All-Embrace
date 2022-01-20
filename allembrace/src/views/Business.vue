@@ -15,28 +15,36 @@
         </h2>
         <div class="brand-wrapper">
           <div class="brand-card">
-            <div class="image"></div>
+            <div class="image-container">
+              <img src="../assets/AE-W-logo.png" />
+            </div>
             <h2>
               All-Embrace
             </h2>
           </div>
 
           <div class="brand-card">
-            <div class="image"></div>
+            <div class="image-container">
+              <img src="../assets/AEwarehouse-logo.png" />
+            </div>
             <h2>
               AE Warehouse
             </h2>
           </div>
 
           <div class="brand-card">
-            <div class="image"></div>
+            <div class="image-container">
+              <img src="../assets/kidstreet-logo.png" />
+            </div>
             <h2>
               Kidstreet
             </h2>
           </div>
 
           <div class="brand-card">
-            <div class="image"></div>
+            <div class="image-container">
+              <img src="../assets/freshhh-logo.png" />
+            </div>
             <h2>
               Freshhhh
             </h2>
@@ -91,7 +99,7 @@ export default {
 .hero-wrapper h1 {
   font-family: "Raleway", sans-serif;
   letter-spacing: 1.15px;
-  font-size: 48px;
+  font-size: 55px;
   margin: 20px 20px 30px 20px;
   color: #ceae3c;
 }
@@ -131,7 +139,7 @@ export default {
   margin: 0 10px;
 }
 .brand-card {
-  margin: 10px;
+  margin: 20px;
 }
 .brand-card h2 {
   margin: 10px 0;
@@ -139,9 +147,16 @@ export default {
   font-size: 20px;
   color: #ceae3c;
 }
-.brand-card .image {
+.brand-card .image-container {
   height: 200px;
   width: 200px;
-  background: pink;
+  /* background: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand-card .image-container img {
+  height: auto;
+  width: 100%;
 }
 </style>
