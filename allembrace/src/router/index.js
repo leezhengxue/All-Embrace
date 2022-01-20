@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import Home2 from '../views/Home2.vue'
 import Contact from '../views/Contact.vue'
 import OurBusiness from '../views/Business.vue'
 import Newsroom from '../views/Newsroom.vue'
@@ -10,12 +9,8 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
-  },
-  {
-    path: '/home2',
-    name: 'Home2',
-    component: Home2
+    component: Home,
+    
   },
   {
     path: '/contact',
@@ -49,7 +44,10 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior() { 
+    window.scrollTo(0,0);
+}
 })
 
 export default router

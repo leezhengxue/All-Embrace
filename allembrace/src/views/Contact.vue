@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="contact">
-      <div class="hero">
+      <div class="hero hero-image">
         <div class="hero-wrapper">
           <h1>Contact Page</h1>
         </div>
@@ -45,20 +45,42 @@ export default {
   justify-content: center;
   align-items: center;
 }
+.hero-image {
+  position: relative;
+}
+.hero-image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/all-embrace-contact.png");
+  background-size: cover;
+  background-position-y: 90%;
+  background-position-x: 55%;
+  z-index: 0;
+  filter: brightness(0.6);
+}
 .hero-wrapper {
   height: 100%;
   width: 1024px;
   margin: 0 50px 0 50px;
   display: flex;
   align-items: flex-end;
+  z-index: 2;
 }
 .hero-wrapper h1 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1.15px;
+  font-size: 48px;
   margin: 20px 20px 30px 20px;
+  color: #ceae3c;
 }
 .section1 {
   min-height: 350px;
   width: 100%;
-  background: orange;
+  background: #070808;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,11 +105,15 @@ export default {
 .content-wrapper h2 {
   margin: 0;
   width: 200px;
+  font-family: "Raleway", sans-serif;
   text-align: left;
+  color: white;
 }
 .content-wrapper h3 {
   margin: 0;
   width: 350px;
+  font-family: "Montserrat", sans-serif;
   text-align: left;
+  color: white;
 }
 </style>

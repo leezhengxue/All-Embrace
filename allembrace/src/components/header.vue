@@ -1,7 +1,7 @@
 <template>
-  <div class="header">
+  <div class="headernav">
     <nav class="navbar">
-      <a href="/" class="nav-logo">AE</a>
+      <a href="/" class="nav-logo"> <img src="../assets/AE-W.png"/></a>
       <ul class="nav-menu" id="nav-menu">
         <li class="nav-item">
           <router-link class="nav-link" to="/">Home</router-link>
@@ -13,21 +13,18 @@
           <!-- <a href="#" class="nav-link">Blog</a> -->
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/contact">Contact</router-link>
-          <!-- <a href="#" class="nav-link">About</a> -->
-        </li>
-        <li class="nav-item">
-          <router-link class="nav-link" to="/newsroom">Newsroom</router-link>
-          <!-- <a href="#" class="nav-link">Contact</a> -->
-        </li>
-        <li class="nav-item">
-          <router-link class="nav-link" to="/home2">Home2</router-link>
-          <!-- <a href="#" class="nav-link">Contact</a> -->
-        </li>
-        <li class="nav-item">
           <router-link class="nav-link" to="/our-business"
             >Our business</router-link
           >
+
+          <!-- <a href="#" class="nav-link">About</a> -->
+        </li>
+        <!-- <li class="nav-item">
+          <router-link class="nav-link" to="/newsroom">Newsroom</router-link>
+        
+        </li> -->
+        <li class="nav-item">
+          <router-link class="nav-link" to="/contact">Contact</router-link>
           <!-- <a href="#" class="nav-link">Contact</a> -->
         </li>
       </ul>
@@ -42,7 +39,7 @@
 
 <script>
 export default {
-  name: "header",
+  name: "headernav",
   props: {},
   mounted() {
     const hamburger = document.querySelector(".hamburger");
@@ -89,7 +86,7 @@ a {
   text-decoration: none;
 }
 
-.header {
+.headernav {
   border-bottom: 1px solid #e2e8f0;
 }
 
@@ -97,9 +94,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 0 1.5rem;
 
-  background: orange;
+  background: #070808;
+  opacity: 0.9;
 }
 .hamburger {
   display: none;
@@ -112,7 +110,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: white;
 }
 .nav-menu {
   display: flex;
@@ -124,12 +122,6 @@ a {
   margin-left: 5rem;
 }
 
-.nav-link {
-  /* font-size: 1.6rem; */
-  font-weight: 400;
-  color: #475569;
-}
-
 .nav-link:hover {
   color: #482ff7;
 }
@@ -139,6 +131,11 @@ a {
   font-weight: 500;
   color: #482ff7;
 }
+.nav-logo img {
+  height: 90px;
+  width: auto;
+  margin-top: 8px;
+}
 @media only screen and (max-width: 1110px) {
   .nav-menu {
     position: fixed;
@@ -147,7 +144,7 @@ a {
     flex-direction: column;
     background-color: #fff;
     width: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
@@ -155,9 +152,10 @@ a {
   }
 
   .nav-menu.active {
-    top: 5rem;
+    top: 6rem;
     z-index: -1;
-    background: pink;
+    background: #070808;
+    border-bottom: 1px solid white;
   }
 
   .nav-item {

@@ -1,7 +1,7 @@
 <template>
   <div class="business">
     <div class="our-business">
-      <div class="hero">
+      <div class="hero hero-image">
         <div class="hero-wrapper">
           <h1>Our Business</h1>
         </div>
@@ -63,21 +63,43 @@ export default {
   justify-content: center;
   align-items: center;
 }
+.hero-image {
+  position: relative;
+}
+.hero-image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/all-embrace-business.png");
+  background-size: cover;
+  background-position-y: 50%;
+  background-position-x: 55%;
+  z-index: 0;
+  filter: brightness(0.6);
+}
 .hero-wrapper {
   height: 100%;
   width: 1024px;
   margin: 0 50px 0 50px;
   display: flex;
   align-items: flex-end;
+  z-index: 2;
 }
 .hero-wrapper h1 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1.15px;
+  font-size: 48px;
   margin: 20px 20px 30px 20px;
+  color: #ceae3c;
 }
 
 .section1 {
   min-height: 300px;
   width: 100%;
-  background: orange;
+  background: #070808;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,10 +112,16 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
 }
 .section1-wrapper h2 {
   width: 100%;
   margin: 10px 10px 10px 20px;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  color: white;
 }
 .brand-wrapper {
   display: flex;
@@ -106,7 +134,10 @@ export default {
   margin: 10px;
 }
 .brand-card h2 {
-  margin: 0;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #ceae3c;
 }
 .brand-card .image {
   height: 200px;

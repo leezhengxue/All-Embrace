@@ -8,18 +8,30 @@
     <router-link to="/newsroom">Newsroom</router-link> -->
     </div>
     <router-view />
+    <footerbar />
   </div>
 </template>
 
 <script>
 import headernav from "../src/components/header.vue";
+import footerbar from "../src/components/footer.vue";
 export default {
   name: "App",
-  components: { headernav },
+  components: { headernav, footerbar },
+  mounted() {
+    document.title = "All-Embrace";
+  },
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -38,11 +50,13 @@ router-view {
   z-index: -1;
 }
 #nav a {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.15px;
   font-weight: bold;
-  color: #2c3e50;
+  color: white;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #ceae3c;
 }
 </style>
