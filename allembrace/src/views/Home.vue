@@ -76,15 +76,15 @@
         <h2>Feature and Benefit</h2>
         <div style="min-height:450px;">
           <div class="scene">
-            <div class="carousel_phone">
-              <img src="../assets/all-embrace-phone.png" />
-            </div>
             <div class="carousel">
               <div class="carousel__cell"></div>
               <div class="carousel__cell"></div>
               <div class="carousel__cell"></div>
               <div class="carousel__cell"></div>
               <div class="carousel__cell"></div>
+            </div>
+            <div class="carousel_phone">
+              <img src="../assets/all-embrace-phone.png" />
             </div>
           </div>
 
