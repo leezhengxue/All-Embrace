@@ -740,7 +740,7 @@ export default {
   height: 350px;
   left: 10px;
   top: 10px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   line-height: 116px;
   font-size: 80px;
   font-weight: bold;
