@@ -703,7 +703,8 @@ export default {
   width: 100%;
   height: 100%;
   position: absolute;
-  transform: translateZ(-288px);
+  /* transform: translateZ(-288px); */
+  transform: translate3d(0, 0, -288px);
   transform-style: preserve-3d;
   transition: transform 1s;
 }
