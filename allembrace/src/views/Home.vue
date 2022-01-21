@@ -707,6 +707,7 @@ export default {
   transform: translate3d(0, 0, -288px);
   transform-style: preserve-3d;
   transition: transform 1s;
+  z-index: 1;
 }
 .carousel_phone {
   width: 230px;
@@ -715,7 +716,7 @@ export default {
   /* border: 20px solid black; */
   left: -10px;
   top: -10px;
-  z-index: 6;
+  z-index: 2;
 }
 .carousel_phone img {
   width: auto;
@@ -723,7 +724,7 @@ export default {
   position: absolute;
   top: -35px;
   left: 0;
-  z-index: 6;
+  z-index: 3;
 }
 .carousel__cell {
   position: absolute;
@@ -737,7 +738,6 @@ export default {
   font-weight: bold;
   color: white;
   text-align: center;
-  z-index: 5;
 }
 
 .carousel__cell:nth-child(9n + 1) {
