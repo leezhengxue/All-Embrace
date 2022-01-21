@@ -79,7 +79,7 @@
             <div class="carousel_phone">
               <img src="../assets/all-embrace-phone.png" />
             </div>
-            <div class="test">
+            <div class="carousel-container">
               <div class="carousel">
                 <div class="carousel__cell"></div>
                 <div class="carousel__cell"></div>
@@ -693,14 +693,14 @@ export default {
   }
 }
 .scene {
-  border: 1px solid;
+  /* border: 1px solid; */
   position: relative;
   width: 210px;
   height: 300px;
   margin: 80px auto;
   perspective: 1000px;
 }
-.test {
+.carousel-container {
   width: 100%;
   height: 100%;
   position: absolute;
