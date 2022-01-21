@@ -34,7 +34,7 @@
           </p>
           <p>
             <a
-              href="https://www.facebook.com/AllEmbraceWarehouse"
+              href="https://www.facebook.com/All-Embrace-Sdn-Bhd-104551042135214"
               target="_blank"
               rel="noopener"
               >Facebook</a
@@ -138,7 +138,7 @@ section .scroll div {
   white-space: nowrap;
   font-weight: 900;
   text-transform: uppercase;
-  animation: animate 5s linear infinite;
+  animation: animate 10s linear infinite;
 }
 section.scroll div:nth-child(2) {
   animation: animate2 5s linear infinite;

@@ -24,30 +24,51 @@
           </div>
 
           <div class="brand-card">
-            <div class="image-container">
-              <img src="../assets/AEwarehouse-logo.png" />
-            </div>
-            <h2>
-              AE Warehouse
-            </h2>
+            <a
+              href="https://www.allembracewarehouse.my/"
+              target="_blank"
+              rel="noopener"
+              style="text-decoration: none;"
+            >
+              <div class="image-container">
+                <img src="../assets/AEwarehouse-logo.png" />
+              </div>
+              <h2>
+                AE Warehouse
+              </h2>
+            </a>
           </div>
 
           <div class="brand-card">
-            <div class="image-container">
-              <img src="../assets/kidstreet-logo.png" />
-            </div>
-            <h2>
-              Kidstreet
-            </h2>
+            <a
+              href="https://kidstreet.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              style="text-decoration: none;"
+            >
+              <div class="image-container">
+                <img src="../assets/kidstreet-logo.png" />
+              </div>
+              <h2>
+                Kidstreet
+              </h2>
+            </a>
           </div>
 
           <div class="brand-card">
-            <div class="image-container">
-              <img src="../assets/freshhh-logo.png" />
-            </div>
-            <h2>
-              Freshhhh
-            </h2>
+            <a
+              href="https://www.freshhh.my/"
+              target="_blank"
+              rel="noopener"
+              style="text-decoration: none;"
+            >
+              <div class="image-container">
+                <img src="../assets/freshhh-logo.png" />
+              </div>
+              <h2>
+                Freshhhh
+              </h2>
+            </a>
           </div>
         </div>
       </div>

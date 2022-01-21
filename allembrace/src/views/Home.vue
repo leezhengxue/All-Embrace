@@ -722,6 +722,7 @@ export default {
   position: absolute;
   top: -35px;
   left: 0;
+  z-index: 6;
 }
 .carousel__cell {
   position: absolute;
