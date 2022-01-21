@@ -76,15 +76,17 @@
         <h2>Feature and Benefit</h2>
         <div style="min-height:450px;">
           <div class="scene">
-            <div class="carousel">
-              <div class="carousel__cell"></div>
-              <div class="carousel__cell"></div>
-              <div class="carousel__cell"></div>
-              <div class="carousel__cell"></div>
-              <div class="carousel__cell"></div>
-            </div>
             <div class="carousel_phone">
               <img src="../assets/all-embrace-phone.png" />
+            </div>
+            <div class="test">
+              <div class="carousel">
+                <div class="carousel__cell"></div>
+                <div class="carousel__cell"></div>
+                <div class="carousel__cell"></div>
+                <div class="carousel__cell"></div>
+                <div class="carousel__cell"></div>
+              </div>
             </div>
           </div>
 
@@ -698,7 +700,13 @@ export default {
   margin: 80px auto;
   perspective: 1000px;
 }
-
+.test {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  perspective: 1000px;
+  z-index: 1;
+}
 .carousel {
   width: 100%;
   height: 100%;
